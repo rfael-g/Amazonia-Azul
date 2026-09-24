@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Western:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypriot&display=swap');
+
 ::root{
   --clara: #CCE1FF;
   --sat: #3081F2;
@@ -26,6 +30,7 @@ main{
   margin-top: 10px;
   border-radius: 10px;
   max-width: 650px;
+  margin-bottom: 10px;
 }
 article{
   margin: auto;
@@ -43,4 +48,30 @@ ul{
   list-style-position: inside;
   border-style: dashed;
   border-color: #99C4FF;
+}
+p{
+  line-height: 1.5em;
+  font-family: 'Noto Sans Cypriot';
+}
+li{
+  line-height: 1.4em;
+}
+h2{
+  color: #003A8C;
+}
+h1,h2{
+  font-family: 'Noto Sans Syriac Western',sans-serif;
+}
+footer{
+  margin: auto;
+  max-width: 650px;
+  border-radius: 10px;
+  background-color: #243A59;
+  padding: 10px;
+}
+h2#foot{
+  color: #CCE1FF;
+}
+a{
+  color: #CCE1FF;
 }
