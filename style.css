@@ -1,0 +1,46 @@
+::root{
+  --clara: #CCE1FF;
+  --sat: #3081F2;
+  --esc: #243A59;
+  --satesc: #003A8C;
+  --pastel: #99C4FF;
+}
+*{
+  margin: 0px;
+}
+body{
+  background-image: url('aqua.jpg');
+}
+header{
+  margin: auto;
+  background-color: #99C4FF;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 650px;
+}
+main{
+  margin: auto;
+  background-color: #99C4FF;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 650px;
+}
+article{
+  margin: auto;
+  background-color: #CCE1FF;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+ul{
+  margin: auto;
+  margin-top: 5px;
+  background-color: #003A8C;
+  color: #CCE1FF;
+  padding: 5px;
+  list-style-position: inside;
+  border-style: dashed;
+  border-color: #99C4FF;
+}
